@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="210.831px" height="276.716px" viewBox="0 0 210.831 276.716" enable-background="new 0 0 210.831 276.716"
+	 xml:space="preserve">
+<g>
+	<path fill="#F7F8F9" stroke="#C2C3C4" stroke-width="1.4641" d="M210.099,267.199c0,4.85-4.168,8.784-9.306,8.784H10.037
+		c-5.138,0-9.305-3.935-9.305-8.784V9.517c0-4.851,4.167-8.785,9.305-8.785h190.756c5.138,0,9.306,3.934,9.306,8.785V267.199z"/>
+	<ellipse fill="#231F20" cx="107.787" cy="117.686" rx="20.814" ry="20.279"/>
+	<ellipse fill="#231F20" cx="88.575" cy="143.303" rx="20.814" ry="20.279"/>
+	<ellipse fill="#231F20" cx="129.135" cy="142.235" rx="20.812" ry="20.278"/>
+	<path fill="#231F20" d="M107.612,145.679c0,0,3.913,26.772-23.125,33.915h49.097c0,0-23.127-5.337-23.483-33.801L107.612,145.679z"
+		/>
+	
+		<text transform="matrix(0.8372 0 0 1 12.4443 40.7319)" fill="#231F20" font-family="'PalatinoLinotype-Roman'" font-size="37.7631">A</text>
+	<g>
+		<ellipse fill="#231F20" cx="26.083" cy="53.272" rx="5.292" ry="5.156"/>
+		<path fill="#231F20" d="M26.489,59.786c0,2.847-2.367,5.155-5.287,5.155c-2.926,0-5.293-2.308-5.293-5.155
+			c0-2.849,2.367-5.155,5.293-5.155C24.122,54.631,26.489,56.937,26.489,59.786z"/>
+		<ellipse fill="#231F20" cx="31.511" cy="59.514" rx="5.29" ry="5.155"/>
+		<path fill="#231F20" d="M26.038,60.387c0,0,0.998,6.807-5.878,8.622h12.48c0,0-5.88-1.356-5.969-8.591L26.038,60.387z"/>
+	</g>
+	
+		<text transform="matrix(0.8372 0 0 -1 179.3525 240.3086)" fill="#231F20" font-family="'PalatinoLinotype-Roman'" font-size="37.7631">A</text>
+	<g>
+		<ellipse fill="#231F20" cx="192.991" cy="227.767" rx="5.291" ry="5.155"/>
+		<ellipse fill="#231F20" cx="188.106" cy="221.254" rx="5.29" ry="5.154"/>
+		<ellipse fill="#231F20" cx="198.417" cy="221.525" rx="5.29" ry="5.154"/>
+		<path fill="#231F20" d="M192.944,220.653c0,0,0.998-6.81-5.878-8.622h12.481c0,0-5.879,1.355-5.969,8.591L192.944,220.653z"/>
+	</g>
+</g>
+</svg>

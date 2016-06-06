@@ -1,0 +1,63 @@
+    <head>
+    	<!-- [GENERAL] -->
+        <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+        <!-- [META TAGS] -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+		<meta name="author" content="Davide Reppucci, davide@reppucci.it" />
+        <meta name="fragment" content="!" />
+        <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}" />
+		<meta name="description" content="{% if page.abstract %}{{ page.abstract | strip_html }}{% else if page.description %}{{ page.description | strip_html }}{% else %}{{ site.description }}{% endif %}" />
+		<link type="text/plain" rel="author" href="/humans.txt" />
+		<meta name="google-site-verification" content="VWHrxrtJh5IgDh3Yc-mwTRLZEB_iHDBDaRjkoBZRDcI" />
+        <!-- Schema.org markup for Facebook -->
+		<meta property="fb:app_id" content="107517289423446" />
+		<meta property="fb:admins" content="1374609416" />
+		<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
+		<meta property="og:image" content="{{ site.url }}/gfx/img/share.jpg" />
+		<meta property="og:image:type" content="image/jpeg" />
+		<meta property="og:image:width" content="1080" />
+		<meta property="og:image:height" content="720" />
+
+		<!-- Schema.org markup for Twitter -->
+		<meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+		<meta name="twitter:description" content="{% if page.abstract %}{{ page.abstract | strip_html }}{% else if page.description %}{{ page.description | strip_html }}{% else %}{{ site.description }}{% endif %}" />
+		<meta name="twitter:image:src" content="{{ site.url }}/gfx/img/share.jpg" />
+
+		<!-- Schema.org markup for Google+ -->
+		<meta itemprop="name" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+		<meta itemprop="description" content="{% if page.abstract %}{{ page.abstract | strip_html }}{% else if page.description %}{{ page.description | strip_html }}{% else %}{{ site.description }}{% endif %}" />
+		<meta itemprop="image" content="{{ site.url }}/gfx/img/share.jpg" />
+
+		<!-- Schema.org markup for mobile -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=yes" />
+        <meta http-equiv="cleartype" content="on" />
+        <link rel="apple-touch-icon" sizes="57x57" href="{{ "/gfx/icon/apple-icon-57x57.png" | prepend: site.baseurl }}">
+        <link rel="apple-touch-icon" sizes="60x60" href="{{ "/gfx/icon/apple-icon-60x60.png" | prepend: site.baseurl }}">
+        <link rel="apple-touch-icon" sizes="72x72" href="{{ "/gfx/icon/apple-icon-72x72.png" | prepend: site.baseurl }}">
+        <link rel="apple-touch-icon" sizes="76x76" href="{{ "/gfx/icon/apple-icon-76x76.png" | prepend: site.baseurl }}">
+        <link rel="apple-touch-icon" sizes="114x114" href="{{ "/gfx/icon/apple-icon-114x114.png" | prepend: site.baseurl }}">
+        <link rel="apple-touch-icon" sizes="120x120" href="{{ "/gfx/icon/apple-icon-120x120.png" | prepend: site.baseurl }}">
+        <link rel="apple-touch-icon" sizes="144x144" href="{{ "/gfx/icon/apple-icon-144x144.png" | prepend: site.baseurl }}">
+        <link rel="apple-touch-icon" sizes="152x152" href="{{ "/gfx/icon/apple-icon-152x152.png" | prepend: site.baseurl }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ "/gfx/icon/apple-icon-180x180.png" | prepend: site.baseurl }}">
+        <link rel="icon" type="image/png" sizes="192x192"  href="{{ "/gfx/icon/android-icon-192x192.png" | prepend: site.baseurl }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ "/gfx/icon/favicon-32x32.png" | prepend: site.baseurl }}">
+        <link rel="icon" type="image/png" sizes="96x96" href="{{ "/gfx/icon/favicon-96x96.png" | prepend: site.baseurl }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ "/gfx/icon/favicon-16x16.png" | prepend: site.baseurl }}">
+        <link rel="manifest" href="{{ "/manifest.json | prepend: site.baseurl }}">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="{{ "/gfx/icon/ms-icon-144x144.png" | prepend: site.baseurl }}">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="shortcut icon" href="{{ "/gfx/icon/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
+        <link rel="icon" href="{{ "/gfx/icon/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
+        <!-- [FILE CSS] -->
+		<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" media="all" />
+    </head>

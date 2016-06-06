@@ -1,0 +1,8 @@
+/* UI design | Full stack development */
+Name:       Davide Reppucci
+URL:        http://www.gdlabs.it
+Contact:    davide.reppucci@gmail.com
+Twitter:    @davidereppucci
+Instagram:  @dedde__
+
+Made with <3 in Italy

@@ -1,0 +1,24 @@
+/*****************/
+/*	_vars.css
+/*****************/
+$default-transition-easing: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+
+%font-family-futura_bkbold {
+	font-family: 'futura_bkbold', Arial, sans-serif;
+}
+%font-family-futura_bkbook {
+	font-family: 'futura_bkbook', Arial, sans-serif;
+}
+%font-family-futura_hvheavy {
+	font-family: 'futura_hvheavy', Arial, sans-serif;
+	letter-spacing: .1em;
+}
+%font-family-futura_mdmedium {
+	font-family: 'futura_mdmedium', Arial, sans-serif;
+}
+%font-family-futura_ltlight {
+	font-family: 'futura_ltlight', Arial, sans-serif;
+}
+%font-family-bodoni {
+	font-family: 'BodoniBT-Book', Arial, sans-serif;
+}

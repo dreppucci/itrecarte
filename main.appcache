@@ -1,0 +1,47 @@
+CACHE MANIFEST
+#Offline manifest for iTreCarte app
+#v. 0.01
+
+CACHE:
+index.html
+#css/common.css
+css/fonts/ag-book-rounded-regular-30669-webfont.ttf
+css/fonts/ag-book-rounded-regular-30669-webfont.svg
+audio/alert-gameover.mp3
+audio/alert-win.mp3
+audio/btn-click.mp3
+audio/card-flip.mp3
+gfx/bkg/bkg.png
+gfx/bkg/board/desk.png
+gfx/bkg/board/lgo.png
+gfx/bkg/board/lgo@2x.png
+gfx/bkg/play/desk.png
+gfx/bkg/welcome/cards.png
+gfx/bkg/welcome/cards@2x.png
+gfx/bkg/welcome/desk.png
+gfx/bkg/welcome/lgo.png
+gfx/bkg/welcome/lgo@2x.png
+gfx/bkg/welcome/lnk-btn-arrow-green.png
+gfx/bkg/welcome/lnk-btn-arrow-green@2x.png
+gfx/bkg/welcome/lnk-btn-arrow-red.png
+gfx/bkg/welcome/lnk-btn-arrow-red@2x.png
+gfx/bkg/welcome/lnk-btn-arrow-yellow.png
+gfx/bkg/welcome/lnk-btn-arrow-yellow@2x.png
+gfx/bkg/welcome/lnk-btn.png
+gfx/bkg/welcome/lnk-btn@2x.png
+gfx/bkg/welcome/stripe.png
+gfx/bkg/welcome/stripe@2x.png
+gfx/svg/card-ace1.svg
+gfx/svg/card-ace2.svg
+gfx/svg/card-cover.svg
+gfx/svg/card-winner.svg
+js/libs/jquery.core.min.js
+js/cordova-2.0.0.js
+#js/core.js
+js/locale.js
+
+NETWORK:
+*
+
+FALLBACK:
+/ /

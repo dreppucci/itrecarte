@@ -1,0 +1,33 @@
+/*****************/
+/*	_fontface.css
+/*****************/
+@font-face {
+	font-family: 'AGBookRoundedBold';
+	src: url('fonts/agbookroundedbold.eot');
+	src: url('fonts/agbookroundedbold.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/agbookroundedbold.woff') format('woff'),
+			 url('fonts/agbookroundedbold.ttf') format('truetype'),
+			 url('fonts/agbookroundedbold.svg#agbookroundedbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AGBookRoundedMedium';
+	src: url('fonts/agbookroundedmedium.eot');
+	src: url('fonts/agbookroundedmedium.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/agbookroundedmedium.woff') format('woff'),
+			 url('fonts/agbookroundedmedium.ttf') format('truetype'),
+			 url('fonts/agbookroundedmedium.svg#agbookroundedmedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AGBookRoundedRegular';
+	src: url('fonts/agbookroundedregular.eot');
+	src: url('fonts/agbookroundedregular.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/agbookroundedregular.woff') format('woff'),
+			 url('fonts/agbookroundedregular.ttf') format('truetype'),
+			 url('fonts/agbookroundedregular.svg#agbookroundedregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
